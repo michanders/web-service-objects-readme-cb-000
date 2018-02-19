@@ -11,4 +11,3 @@ class FoursquareService
   body = JSON.parse(resp.body)
   body["access_token"]
 end
-end
